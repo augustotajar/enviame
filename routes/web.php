@@ -13,5 +13,5 @@
 
 Route::get('/create_delivery','enviame@create_delivery' );
 
-Route::get('/track_delivery', 'enviame@track_delivery');
+Route::get('/track_delivery/{tracking}', 'enviame@track_delivery');
 
